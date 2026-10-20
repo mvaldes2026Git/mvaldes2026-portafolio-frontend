@@ -4,7 +4,7 @@ Portafolio web personal de Mauricio Valdés, estudiante de Ingeniería Civil en 
 
 ## 🌐 Sitio Publicado en Producción
 - **GitHub Pages:** https://mvaldes2026git.github.io/mvaldes2026-portafolio-frontend/
-- **Vercel:** [PEGA_AQUÍ_TU_LINK_DE_VERCEL](https://mvaldes2026-portafolio-frontend.vercel.app/)
+- **Vercel:** https://mvaldes2026-portafolio-frontend.vercel.app/
 - **Render:** https://mvaldes2026-portafolio-frontend.onrender.com
 
 ---

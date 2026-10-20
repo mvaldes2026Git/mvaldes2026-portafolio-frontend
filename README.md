@@ -2,20 +2,21 @@
 
 Portafolio web personal de Mauricio Valdés, estudiante de Ingeniería Civil en Informática en la Universidad Católica de Temuco. Proyecto de evaluación para la asignatura **ICINF1107 - Desarrollo de Frontend**.
 
+## 🌐 Sitio Publicado en Producción
+- **GitHub Pages:** https://mvaldes2026git.github.io/mvaldes2026-portafolio-frontend/
+- **Vercel:** PEGA_AQUÍ_TU_LINK_DE_VERCEL
+- **Render:** PEGA_AQUÍ_TU_LINK_DE_RENDER
+
+---
+
 ## 🎯 Objetivo del Proyecto
-Proveer una interfaz de portafolio web semántica, limpia y responsiva orientada a reclutadores técnicos y docentes, aplicando estrictamente las normativas de accesibilidad y diseño estructurado vistas en el curso.
+Proveer una interfaz de portafolio web semántica (100% etiquetas de estructura), limpia, responsiva y accesible.
 
 ## 🛠️ Tecnologías Utilizadas
-- **HTML5:** Estructura semántica estricta (`header`, `nav`, `main`, `section`, `article`, `footer`).
-- **CSS3:** Diseño responsivo (Mobile-First) con variables de paleta cromática, Flexbox y CSS Grid.
-- **Accesibilidad:** Uso de directrices WCAG (enlace *Skip Link*, alto contraste visual, pseudo-clases `:focus-visible` para navegación por teclado y roles WAI-ARIA).
+- **HTML5:** Estructura semántica basada en `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`.
+- **CSS3:** Mobile-First con Flexbox, CSS Grid y variables de paleta territorial de La Araucanía.
+- **Accesibilidad:** Cumplimiento de WCAG 2.1 (Skip Link, `:focus-visible`, contraste AA, etiquetas `alt`).
 
-## 📐 Decisiones de Diseño
-- **Jerarquía y Estructura:** Se priorizó el contenido dividiendo la página en tres secciones clave solicitadas en la rúbrica: *Sobre mí*, *Proyectos* y *Contacto*.
-- **Responsividad:** Implementación de **3 breakpoints reales** (Móvil `<768px`, Tablet `≥768px` y Escritorio `≥1024px`).
-- **Minimalismo y Performance:** Eliminación de imágenes y scripts pesados, basando la carga visual puramente en tipografías, espaciados y CSS estructurado.
-
-## 🚀 Cómo ejecutarlo localmente
-1. Clonar el repositorio.
-2. Abrir la carpeta del proyecto en VS Code.
-3. Lanzar `index.html` utilizando la extensión **Live Server**.
+## 🚀 Proyectos Destacados
+1. **Cabañas SurVal:** Mockup inmobiliario responsivo.
+2. **EID de Cálculo Básico:** Calculadora interactiva de límites matemáticos.

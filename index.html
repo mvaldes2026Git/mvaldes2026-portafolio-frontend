@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portafolio web y plataforma accesible de corretaje de cabañas en La Araucanía. Disponible en Español, Mapudungun e Inglés.">
-  <title>Cabañas SurVal | Corretaje Accesible e Intercultural</title>
+  <meta name="description" content="Portafolio web personal de Mauricio Valdés, estudiante de Ingeniería Civil en Informática en la UC Temuco.">
+  <title>Mauricio Valdés | Portafolio Frontend</title>
   <link rel="stylesheet" href="assets/styles/style.css">
 </head>
 <body>
@@ -14,26 +14,14 @@
 
   <!-- ENCABEZADO PRINCIPAL -->
   <header role="banner">
-    <figure>
-      <figcaption class="sr-only">Logotipo de Cabañas SurVal</figcaption>
-      <h1 id="titulo-sitio">Cabañas SurVal — Corretaje Intercultural</h1>
-    </figure>
+    <h1 id="titulo-sitio">Mauricio Valdés</h1>
+    <p>Estudiante de Ingeniería Civil en Informática</p>
     
-    <!-- Selección de Idioma (Accesibilidad Lingüística WCAG) -->
-    <nav aria-label="Selección de idioma / Language / Dungun" role="navigation">
-      <ul>
-        <li><a href="#inicio" lang="es" hreflang="es" aria-current="page">Español</a></li>
-        <li><a href="#inicio" lang="arn" hreflang="arn">Mapudungun</a></li>
-        <li><a href="#inicio" lang="en" hreflang="en">English</a></li>
-      </ul>
-    </nav>
-
     <!-- Navegación Principal -->
-    <nav aria-label="Navegación principal del sitio" role="navigation">
+    <nav aria-label="Navegación principal del portafolio" role="navigation">
       <ul>
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#catalogo">Catálogo</a></li>
-        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
         <li><a href="#contacto">Contacto</a></li>
       </ul>
     </nav>
@@ -42,179 +30,100 @@
   <!-- CONTENIDO PRINCIPAL -->
   <main id="contenido-principal" role="main">
 
-    <!-- SECCIÓN 1: INICIO Y SALUDO TRILINGÜE -->
-    <section id="inicio" aria-labelledby="titulo-inicio">
-      <h2 id="titulo-inicio">Bienvenido a Cabañas SurVal / Küme Akun / Welcome</h2>
+    <!-- SECCIÓN 1: SOBRE MÍ -->
+    <section id="sobre-mi" aria-labelledby="titulo-sobre-mi">
+      <h2 id="titulo-sobre-mi">Sobre mí</h2>
+      <p>
+        ¡Hola! Soy Mauricio Valdés, estudiante de primer año de <strong>Ingeniería Civil en Informática</strong> en la Universidad Católica de Temuco.
+      </p>
+      <p>
+        Este portafolio representa mis primeros pasos en el desarrollo web. Mi enfoque actual es crear interfaces web estructuradas, limpias y, sobre todo, <strong>accesibles</strong> para todos los usuarios. Me interesa el desarrollo de software sustentable y con pertinencia territorial.
+      </p>
+    </section>
+
+    <!-- SECCIÓN 2: PROYECTOS / TRABAJOS DEL SEMESTRE -->
+    <section id="proyectos" aria-labelledby="titulo-proyectos">
+      <h2 id="titulo-proyectos">Trabajos y Proyectos Destacados</h2>
       
-      <!-- Mensaje Trilingüe de Bienvenida -->
-      <p lang="es">
-        Agencia especializada en el arriendo y venta de cabañas en la Región de La Araucanía. Promovemos un servicio accesible, inclusivo y conectado con el territorio.
-      </p>
-      <p lang="arn">
-        <strong>Mari mari pu che.</strong> Tüfati ruka küme meli witran mapu mew. Re küme ruka amuleyiñ kom che gealu.
-      </p>
-      <p lang="en">
-        Specialized agency for cabin rentals and sales in La Araucanía Region. We provide accessible, inclusive, and territory-connected services.
-      </p>
-
-      <!-- Recorrido Virtual y Video Accesible -->
-      <figure aria-labelledby="desc-video">
-        <video controls poster="assets/img/cabana-destacada.jpg" aria-describedby="transcripcion-es">
-          <source src="assets/video/recorrido-cabanas.mp4" type="video/mp4">
-          <track kind="captions" src="assets/video/subtitulos-es.vtt" srclang="es" label="Español" default>
-          <track kind="captions" src="assets/video/subtitulos-en.vtt" srclang="en" label="English">
-          Tu navegador no soporta el reproductor de video HTML5.
-        </video>
-        <figcaption id="desc-video">
-          Recorrido auditivo y visual por nuestras cabañas disponibles.
-        </figcaption>
-      </figure>
-
-      <!-- Transcripciones Multi-idioma para Lectores de Pantalla -->
-      <details id="transcripcion-es">
-        <summary lang="es">Ver transcripción textual en Español</summary>
+      <!-- Proyecto 1 -->
+      <article aria-labelledby="proyecto-1-titulo">
+        <header>
+          <h3 id="proyecto-1-titulo">Cabañas SurVal (Mockup Inmobiliario)</h3>
+          <p><strong>Tecnologías:</strong> HTML5 Semántico, CSS3 Responsivo, WAI-ARIA.</p>
+        </header>
         <p>
-          Cabaña de madera rústica junto a bosque nativo y vista al lago. Equipada con terraza, ventanales termopanel, calefacción a leña y capacidad para 6 personas.
+          Diseño de interfaz para una plataforma de corretaje de propiedades enfocada en la Región de La Araucanía. 
+          El proyecto destacó por la integración de una paleta de colores territorial y un diseño completamente accesible 
+          para lectores de pantalla mediante roles ARIA y cumplimiento de las directrices WCAG 2.1 (Nivel AA).
         </p>
-      </details>
-
-      <details id="transcripcion-arn">
-        <summary lang="arn">Dungun dungu: Transcripción en Mapudungun</summary>
-        <p lang="arn">
-          Küme ruka mamüll mew deumañmangeyei. Niey mawida, lafken witrun, küme kütral, kay kay meli che müleyiñ.
-        </p>
-      </details>
-
-      <details id="transcripcion-en">
-        <summary lang="en">Read text transcript in English</summary>
-        <p lang="en">
-          Rustic wooden cabin next to native forest with lake view. Equipped with deck, double-pane windows, wood stove, and capacity for 6 guests.
-        </p>
-      </details>
-    </section>
-
-    <!-- SECCIÓN 2: CATÁLOGO DE CABAÑAS EN STOCK -->
-    <section id="catalogo" aria-labelledby="titulo-catalogo">
-      <h2 id="titulo-catalogo">Catálogo de Cabañas en Stock</h2>
-      
-      <!-- Cabaña 1 -->
-      <article aria-labelledby="cabana-1-titulo">
-        <header>
-          <h3 id="cabana-1-titulo">Cabaña Enseñada del Lago</h3>
-          <p><strong>Ubicación:</strong> Lago Villarrica | <strong>Capacidad:</strong> 6 Personas</p>
-        </header>
-
-        <figure>
-          <img src="assets/img/cabana-lago.jpg" alt="Cabaña de madera de dos pisos con vista frontal al lago y terraza equipada">
-          <figcaption>Vista exterior de Cabaña Enseñada del Lago.</figcaption>
-        </figure>
-
-        <p lang="es">3 dormitorios, 2 baños, acceso privado a la playa y estufa a combustión lenta.</p>
-        <p lang="en"><small>English: 3 bedrooms, 2 bathrooms, private beach access, wood burning stove.</small></p>
-
         <footer>
-          <p><strong>Precio / Value:</strong> $85.000 CLP / night</p>
-          <a href="#contacto" aria-label="Consultar disponibilidad para Cabaña Enseñada del Lago">Consultar disponibilidad</a>
+          <a href="#" aria-label="Ver código fuente del proyecto Cabañas SurVal en GitHub">Ver Repositorio</a>
         </footer>
       </article>
 
-      <!-- Cabaña 2 -->
-      <article aria-labelledby="cabana-2-titulo">
+      <!-- Proyecto 2 -->
+      <article aria-labelledby="proyecto-2-titulo">
         <header>
-          <h3 id="cabana-2-titulo">Cabaña Refugio del Bosque (Mawida Ruka)</h3>
-          <p><strong>Ubicación:</strong> Curacautín | <strong>Capacidad:</strong> 4 Personas</p>
+          <h3 id="proyecto-2-titulo">JSBasics - Ejercicios Lógicos</h3>
+          <p><strong>Tecnologías:</strong> JavaScript Vanilla, Algoritmia.</p>
         </header>
-
-        <figure>
-          <img src="assets/img/cabana-bosque.jpg" alt="Cabaña rústica rodeada de araucarias y entorno natural verde con tinaja exterior">
-          <figcaption>Vista de Cabaña Refugio del Bosque con tinaja al aire libre.</figcaption>
-        </figure>
-
-        <p lang="es">Entorno de araucarias nativas, tinaja de agua caliente privada y parrilla.</p>
-        <p lang="en"><small>English: Surrounded by native monkey puzzle trees, private hot tub, and barbecue grill.</small></p>
-
+        <p>
+          Resolución de batería de ejercicios algorítmicos en JavaScript puro. Incluye manipulación de arreglos, 
+          ciclos y funciones lógicas aplicadas a la resolución de problemas técnicos básicos de programación.
+        </p>
         <footer>
-          <p><strong>Precio / Value:</strong> $70.000 CLP / night</p>
-          <a href="#contacto" aria-label="Consultar disponibilidad para Cabaña Refugio del Bosque">Consultar disponibilidad</a>
+          <a href="#" aria-label="Ver código fuente de JSBasics en GitHub">Ver Repositorio</a>
         </footer>
       </article>
     </section>
 
-    <!-- SECCIÓN 3: SERVICIOS Y PERTINENCIA LOCAL -->
-    <section id="servicios" aria-labelledby="titulo-servicios">
-      <h2 id="titulo-servicios">Servicios de Corretaje e Inclusión Territorial</h2>
-      <ul>
-        <li>
-          <strong>Difusión Intercultural:</strong> Publicación de propiedades con pertinencia territorial e información trilingüe (Español, Mapudungun, Inglés).
-        </li>
-        <li>
-          <strong>Diseño Universal y Accesible:</strong> Interfaces validadas para navegación por teclado y lectores de pantalla (NVDA, JAWS, VoiceOver).
-        </li>
-        <li>
-          <strong>Gestión Directa:</strong> Canalización de consultas turísticas de origen nacional e internacional.
-        </li>
-      </ul>
+    <!-- SECCIÓN 3: CONTACTO -->
+    <section id="contacto" aria-labelledby="titulo-contacto">
+      <h2 id="titulo-contacto">Contacto</h2>
+      <p>¿Te interesa mi trabajo? Envíame un mensaje y te responderé a la brevedad.</p>
+
+      <form action="#" method="post" aria-label="Formulario de contacto personal">
+        <fieldset>
+          <legend>Formulario de Contacto</legend>
+
+          <p>
+            <label for="nombre">Nombre completo <span aria-hidden="true">*</span>:</label>
+            <input type="text" id="nombre" name="nombre" required aria-required="true" autocomplete="name">
+          </p>
+
+          <p>
+            <label for="email">Correo electrónico <span aria-hidden="true">*</span>:</label>
+            <input type="email" id="email" name="email" required aria-required="true" autocomplete="email">
+          </p>
+
+          <p>
+            <label for="asunto">Asunto:</label>
+            <input type="text" id="asunto" name="asunto" autocomplete="off">
+          </p>
+
+          <p>
+            <label for="mensaje">Mensaje <span aria-hidden="true">*</span>:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required aria-required="true"></textarea>
+          </p>
+
+          <button type="submit" aria-label="Enviar mensaje a Mauricio">Enviar Mensaje</button>
+        </fieldset>
+      </form>
     </section>
-
-<!-- SECCIÓN 4: FORMULARIO DE CONTACTO Y COTIZACIÓN -->
-<section id="contacto" aria-labelledby="titulo-contacto">
-  <h2 id="titulo-contacto">Contacto y Cotización / Contact Form / Ramtun</h2>
-
-  <form action="#" method="post" aria-label="Formulario de contacto de corretaje">
-    <fieldset>
-      <legend>Datos de Consulta y Selección de Cabaña</legend>
-
-      <p>
-        <label for="nombre">Nombre completo / Full name <span aria-hidden="true">*</span>:</label>
-        <input type="text" id="nombre" name="nombre" required aria-required="true" autocomplete="name">
-      </p>
-
-      <p>
-        <label for="correo">Correo electrónico / Email <span aria-hidden="true">*</span>:</label>
-        <!-- Cambiado id="correo" a id="email" para coincidir con script.js -->
-        <input type="email" id="email" name="correo" required aria-required="true" autocomplete="email">
-      </p>
-
-      <p>
-        <label for="cabana">Seleccione Cabaña a consultar / Select Cabin:</label>
-        <!-- Agregado select id="cabana" para que el cotizador dinámico de JS funcione -->
-        <select id="cabana" name="cabana">
-          <option value="" selected>-- Seleccione una opción --</option>
-          <option value="villarrica">Cabaña Enseñada del Lago (Villarrica)</option>
-          <option value="curacautin">Cabaña Refugio del Bosque (Curacautín)</option>
-        </select>
-      </p>
-
-      <p>
-        <label for="idioma-pref">Idioma de preferencia / Preferred Language:</label>
-        <select id="idioma-pref" name="idioma-pref">
-          <option value="es" selected>Español</option>
-          <option value="arn">Mapudungun</option>
-          <option value="en">English</option>
-        </select>
-      </p>
-
-      <p>
-        <label for="mensaje">Mensaje o consulta / Message <span aria-hidden="true">*</span>:</label>
-        <textarea id="mensaje" name="mensaje" rows="4" required aria-required="true"></textarea>
-      </p>
-
-      <button type="submit" aria-label="Enviar formulario de contacto">Enviar Mensaje / Send</button>
-    </fieldset>
-  </form>
-</section>
 
   </main>
 
   <!-- PIE DE PÁGINA -->
   <footer id="pie-pagina" role="contentinfo">
     <address>
-      <p><strong>Cabañas SurVal — Corretaje Inmobiliario Intercultural</strong></p>
-      <p>Temuco, Región de La Araucanía, Chile</p>
-      <p>Contacto: <a href="mailto:contacto@cabanas-surval.cl">contacto@cabanas-surval.cl</a></p>
+      <p><strong>Mauricio Valdés</strong></p>
+      <p>Universidad Católica de Temuco — Ingeniería Civil en Informática</p>
+      <p>Contacto: <a href="mailto:mvaldes2026@alu.uct.cl">mvaldes2026@alu.uct.cl</a></p>
     </address>
-    <p><small>&copy; 2026 Mauricio Valdés — ICINF1107 Desarrollo de Frontend (UC Temuco).</small></p>
+    <p><small>&copy; 2026. Proyecto Desarrollo de Frontend (ICINF1107).</small></p>
   </footer>
-<script src="assets/scripts/script.js" defer></script>
+
+  <!-- Script vinculado (Actualmente vacío según requisitos) -->
+  <script src="assets/scripts/script.js" defer></script>
 </body>
 </html>

@@ -1,39 +1,21 @@
-# 🏔️ Cabañas Surval — Turismo Accesible e Intercultural
+# Portafolio Personal — Desarrollo Frontend
 
-Plataforma web de difusión y reserva para **Cabañas Surval**, orientada al turismo accesible e intercultural en la Región de La Araucanía, Chile. Proyecto desarrollado para la asignatura de **Desarrollo de Frontend (ICINF1107)** en la **Universidad Católica de Temuco**.
+Portafolio web personal de Mauricio Valdés, estudiante de Ingeniería Civil en Informática en la Universidad Católica de Temuco. Proyecto de evaluación para la asignatura **ICINF1107 - Desarrollo de Frontend**.
 
----
+## 🎯 Objetivo del Proyecto
+Proveer una interfaz de portafolio web semántica, limpia y responsiva orientada a reclutadores técnicos y docentes, aplicando estrictamente las normativas de accesibilidad y diseño estructurado vistas en el curso.
 
-## 🌟 Características Principales
+## 🛠️ Tecnologías Utilizadas
+- **HTML5:** Estructura semántica estricta (`header`, `nav`, `main`, `section`, `article`, `footer`).
+- **CSS3:** Diseño responsivo (Mobile-First) con variables de paleta cromática, Flexbox y CSS Grid.
+- **Accesibilidad:** Uso de directrices WCAG (enlace *Skip Link*, alto contraste visual, pseudo-clases `:focus-visible` para navegación por teclado y roles WAI-ARIA).
 
-* **Estructura Semántica Pura (HTML5):** Uso riguroso de etiquetas semánticas (`header`, `nav`, `main`, `section`, `article`, `footer`) sin uso superfluo de contenedores genéricos.
-* **Accesibilidad Web (WCAG 2.1 - Niveles A y AA):**
-  * Navegación completa mediante teclado (indicadores visuales con `:focus-visible` de alto contraste).
-  * Regiones WAI-ARIA y compatibilidad con lectores de pantalla (NVDA, VoiceOver, Narrador).
-  * Enlace de salto rápido (`.sr-only`) para saltar directamente al contenido principal.
-  * Inclusión lingüística intercultural (Español / Mapudungun).
-* **Diseño Responsivo con Identidad Territorial (CSS3):**
-  * Paleta cromática inspirada en la naturaleza sureña (Verde Araucaria `#1B4D3E`, Azul Lago `#1E5B70`, Madera Roble `#8B5A2B`).
-  * **3 Breakpoints Responsivos:** Adaptación fluida para Móvil (<768px), Tablet (≥768px) y Escritorio (≥1024px).
-* **Multimedia Accesible:**
-  * Reproductor `<video>` integrado con atributo `poster`, subtítulos `<track>` y transcripción textual completa en un componente colapsable `<details>`.
-* **Interactividad Dinámica (JavaScript):**
-  * **Cotizador Dinámico:** Cálculo en tiempo real de tarifas estimadas en pesos chilenos (`CLP`) según la cabaña seleccionada.
-  * **Validación Accesible de Formulario:** Notificación interactiva de errores en vivo (`aria-invalid="true"`, `role="alert"`) e integración de un modal de confirmación (*Chaltumay*).
+## 📐 Decisiones de Diseño
+- **Jerarquía y Estructura:** Se priorizó el contenido dividiendo la página en tres secciones clave solicitadas en la rúbrica: *Sobre mí*, *Proyectos* y *Contacto*.
+- **Responsividad:** Implementación de **3 breakpoints reales** (Móvil `<768px`, Tablet `≥768px` y Escritorio `≥1024px`).
+- **Minimalismo y Performance:** Eliminación de imágenes y scripts pesados, basando la carga visual puramente en tipografías, espaciados y CSS estructurado.
 
----
-
-## 📁 Estructura del Proyecto
-
-```text
-mvaldes2026-proyecto02-frontend/
-├── assets/
-│   ├── styles/
-│   │   └── style.css          # Estilos globales y breakpoints responsivos
-│   ├── script/
-│   │   └── script.js            # Cotizador dinámico y validación accesible
-│   ├── img/                   # Recursos gráficos e imágenes descriptivas
-│   └── video/                 # Recorrido en video de las instalaciones
-├── index.html                 # Documento HTML principal accesible
-├── uso_ia.md                  # Declaración de uso de IA generativa y prompts
-└── README.md                  # Documentación del proyecto
+## 🚀 Cómo ejecutarlo localmente
+1. Clonar el repositorio.
+2. Abrir la carpeta del proyecto en VS Code.
+3. Lanzar `index.html` utilizando la extensión **Live Server**.
